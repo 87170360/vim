@@ -17,8 +17,11 @@
   解压到任意目录
   把执行文件所在目录添加到系统环境变量中
   在dos下执行curl --version把没报错即可
-5.修改_vimrc
+5.安装pathogen
+  在dos下切换到autoload执行 curl -LSso pathogen.vim https://tpo.pe/pathogen.vim
+6.修改_vimrc
   execute pathogen#infect()
-  
-6.使用实例实例
+  syntax on
+  filetype plugin indent on
+7.使用实例实例
   在dos命令下，切换到bundle目录，运行命令 git clone http://github.com/yegappan/mru 

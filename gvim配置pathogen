@@ -1,0 +1,24 @@
+1.官网下载安装gvim
+  在安装步骤时，一定要选 ‘Full’ 选项
+2.整理文件
+  切换到安装目录Vim下
+  Step 1 - 删除 ‘vimfiles’ 中的所有文件夹，但不要删除它自身。
+  Step 2 - 打开 ‘vim74’ 文件夹，你会找到它下面一个名为 ‘autoload’ 的文件夹，剪切到 ‘vimfiles’ 文件夹下。
+  Step 3 - 在 ‘vimfilles’ 下面创建另一个文件夹，名为 ‘bundle’。
+  重启 gVim 来确保没有任何错误信息。如果有错误，请重新安装 gVim 并进行之前的步骤。
+3.Git安装
+  http://git-scm.com/downloads 并下载 Windows 版本安装
+  首先，你必须确保 Git cheetah plug-in 选项被选中。它可能是默认选项，但你务必再确认一遍
+  。True type font option for Windows Console 选项是可选的。
+  其次，在安装过程中，确保 Run Git from the Windows command prompt 选项被选中。
+  开命令提示符并输入 git --version 命令。无错误提示
+4.Curl安装
+  下载安装包https://curl.haxx.se/dlwiz/
+  解压到任意目录
+  把执行文件所在目录添加到系统环境变量中
+  在dos下执行curl --version把没报错即可
+5.修改_vimrc
+  execute pathogen#infect()
+  
+6.使用实例实例
+  在dos命令下，切换到bundle目录，运行命令 git clone https://github.com/zeis/vim-kolor 

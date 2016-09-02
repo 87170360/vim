@@ -21,4 +21,4 @@
   execute pathogen#infect()
   
 6.使用实例实例
-  在dos命令下，切换到bundle目录，运行命令 git clone https://github.com/zeis/vim-kolor 
+  在dos命令下，切换到bundle目录，运行命令 git clone http://github.com/yegappan/mru 

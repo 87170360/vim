@@ -7,3 +7,7 @@ http://github.com/yegappan/mru
 浏览文件
 nerdtree
 https://github.com/scrooloose/nerdtree
+常用命令
+  :NERDTree dir
+配置
+  nnoremap <silent> <F6> :NERDTree E:\work\ZjhServer\c++<CR>

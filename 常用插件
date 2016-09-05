@@ -22,3 +22,7 @@ ctags
 set tags=tags;
 set autochdir
 
+切换头文件和源文件cc cpp/ h
+https://github.com/vim-scripts/a.vim.git
+操作 :A
+

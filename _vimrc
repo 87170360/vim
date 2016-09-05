@@ -50,3 +50,6 @@ nnoremap <silent> <F3> :vimgrep /\<<C-r><C-w>\>/j E:\ZjhServer\c++\**\*.* <Bar> 
 nnoremap <silent> <F4> :cclose<CR>
 nnoremap <silent> <F5> :MRU<CR> 
 nnoremap <silent> <F6> :NERDTree E:\ZjhServer\c++<CR>
+
+"×ÖÌå
+set guifont=Microsoft_YaHei_Mono:h13:cANSI

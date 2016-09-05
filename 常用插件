@@ -9,5 +9,16 @@ nerdtree
 https://github.com/scrooloose/nerdtree
 常用命令
   :NERDTree dir
-配置
+配置_vimrc
   nnoremap <silent> <F6> :NERDTree E:\work\ZjhServer\c++<CR>
+  
+c++代码跳转
+ctags
+把ctags执行文件放在指定目录，添加到系统变量
+在dos切换到代码目录，执行ctags -R， 产生tags文件
+广播光标在目标上ctr+]即可调整
+
+配置_vimrc
+set tags=tags;
+set autochdir
+
